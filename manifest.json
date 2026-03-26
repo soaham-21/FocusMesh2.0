@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 3,
+    "name" : "FocusMesh2.0",
+    "version" : "1.0",
+    "description" : "AI-powered focus tracker",
+    "permission" : ["tabs", "storage"],
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "action":{
+        "default_popup" : "popup.html"
+    }
+}
